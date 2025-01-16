@@ -5,8 +5,8 @@ for i in range (10):
     numero = float(input(f"Dime un número: "))
     vector.append(numero)
 
-numMax = max(vector)
+valorMax = max(vector)
 
-repeticion = vector.count(numMax)
+repeticion = vector.count(valorMax)
 
-print(f"El número mayor es: {numMax} y se repite {repeticion} veces")
+print(f"El número mayor es: {valorMax} y se repite {repeticion} veces")
